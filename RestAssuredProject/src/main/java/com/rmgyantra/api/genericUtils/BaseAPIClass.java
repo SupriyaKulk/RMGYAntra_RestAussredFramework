@@ -10,6 +10,7 @@ import static io.restassured.RestAssured.*;
 public class BaseAPIClass {
 	
 	public DataBaseUtilities dblib = new DataBaseUtilities();
+	
 	@BeforeSuite
 	public void configBeforeSuite() {
 		
